@@ -6,6 +6,14 @@ int main() {
 
 	int* array = new int[size];
 
+	for (int i = 0; i < size; i++)
+	{
+		array[1] = 0;
+	}
 
+	for (int i = 0; i < size; i++)
+	{
+		cout << array[i] << "\t";
+	}
 	return 0;
 }
